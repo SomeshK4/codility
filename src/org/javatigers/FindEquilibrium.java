@@ -5,6 +5,7 @@ public class FindEquilibrium {
 		int arr[] = {3,1,2,4,3};
 		System.out.println(getEquilibrium(arr));
 	}
+	
 	public static int getEquilibrium(int[] A) {
 		if (A.length == 2)
 	        return Math.abs(A[0]-A[1]);

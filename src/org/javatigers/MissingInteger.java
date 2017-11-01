@@ -13,13 +13,15 @@ public class MissingInteger {
 
 		for (int i = 0; i < A.length; i++) {
 			hset.add(A[i]);
-
-			while (hset.contains(num)) {
-				num++;
-			}
+		}
+		
+		while (hset.contains(num)) {
+			num++;
 		}
 
 		return num;
 	}
+	
+	
 
 }
