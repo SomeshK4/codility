@@ -12,6 +12,8 @@ public class CountDividends {
 		}
 		else
 			return (B / K) - (A / K);
+		
+		//http://www.geeksforgeeks.org/count-numbers-divisible-m-given-range/
 	}
 
 }
